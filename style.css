@@ -22,6 +22,7 @@
     background-blend-mode:multiply;
     background-size:cover;
     background-position:center;
+    position: sticky;
   }
   
   .nav{
@@ -135,6 +136,7 @@
     .nav {
       display:grid;
       grid-template-columns:1fr auto minmax(600px, 3fr) 1fr;
+      border-bottom: solid .75px white;
     }
     
     .logo{
@@ -168,8 +170,9 @@
   container h1{
     color:white;
     margin-top:0;
-    padding-top:30%;
-    font-size:8em;
+    padding-top:28%;
+    font-size:7em;
+    font-family: 'Della Respira', serif;
   }
   
   container{
