@@ -12,6 +12,7 @@
     font-family: 'Bebas Neue', cursive;
     margin: 0;
     padding: 0;
+    background-color: #ECE8E4;
   }
   
   .content {
@@ -36,8 +37,14 @@
   }
   /* hamburger menu styles */
   
-   
-  
+   .logo {
+    color: white;
+    font-family: 'Della Respira', serif;
+    font-size: 18pt;
+    color:#f78a0c;
+   }
+
+
   .nav-toggle{
     display:none;
   }
@@ -77,6 +84,7 @@
   }
   }
   
+  
   nav {
     position:absolute;
     text-align:left;
@@ -104,7 +112,7 @@
   nav a {
     color:white;
     text-decoration:none;
-    text-size: 1.2rem;
+    font-size: 1.2rem;
     text-transform:uppercase;
     opacity:0;
   }
@@ -129,15 +137,20 @@
   
   /*media querry for desktop*/
   
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 800px) {
     .nav-toggle-label {
       display:none;
     }
     .nav {
       display:grid;
-      grid-template-columns:1fr auto minmax(600px, 3fr) 1fr;
+      grid-template-columns:1fr auto minmax(950px, 3fr) 1fr;
       border-bottom: solid .75px white;
     }
+
+    .nav img{
+      padding: 30px 10px 25px 50px;
+    }
+
     
     .logo{
       grid-column: 2/3;
@@ -150,7 +163,7 @@
       justify-content:flex-end;
       align-items:center;
     }
-    
+
     nav ul {
       display:flex;
       justify-content:flex-end;
@@ -229,3 +242,11 @@
     .card img{
       height:125vh;
     }
+
+.about{
+  margin-top: 35px;
+}
+
+.about {
+  font-family: 'Della Respira', serif;
+}
