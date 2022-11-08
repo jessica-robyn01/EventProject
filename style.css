@@ -23,9 +23,25 @@
     background-blend-mode:multiply;
     background-size:cover;
     background-position:center;
-    position: sticky;
+    
+  }
+
+  .herobutton {
+    background-color:rgba(245, 153, 69, .40);
+    color:white;
+    width: 140px;
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+    border-style: none;
+    font-size: 15px;
+    margin-top: 15px;
+    border: solid 2px white;
   }
   
+.content h2{
+  color:white;
+}
+
   .nav{
     background: var(--background);
     text-align:center;
@@ -287,11 +303,11 @@ margin-bottom: 55px;
   margin: 100px 0;
 }
 
-.works-image {
+.works-section-image {
   width: 50%;
   align-self: stretch;
 }
-.works-image img {
+.works-section-image img {
   width:100%;
   height: 100%;
   object-fit: cover;
@@ -310,12 +326,100 @@ margin-bottom: 55px;
     line-height: 30px;
 }
 
+.datewords h3{
+  font-weight: 300;
+}
+
 .worksinfo{
 width: 50%;
 padding-left: 60px;
 padding-right: 126px;
 }
 
+/*pricing section*/
+.pricingtitle {
+  text-align: center;
+  font-family: 'Della Respira', serif;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 65px;
+}
+
+.cards button{
+  background-color:#f78a0c;
+color:white;
+width: 100px;
+height: 35px;
+font-family: 'Montserrat', sans-serif;
+border-style: none;
+font-size: 15px;
+margin-top: 15px;
+box-shadow: 1px 3px 7px #8c8987;
+margin-bottom: 10px;
+}
+
+.cards button:hover {
+background-color: #676077;
+}
+
+.kidsticket button{
+  margin-top: 50px;
+}
+
+.adultticket button{
+  margin-top: 65px;
+}
+
+.parking button{
+  margin-top: 10px;
+}
+
+.cards h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16pt;
+}
+
+.cards h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25pt;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.kidsticket{
+  background-color: #D9CFE4;
+  width: 300px;
+  text-align: center;
+  padding: 25px 40px 25px 40px;
+  border: solid 2px #F59945;
+  box-shadow: 1px 3px 7px #8c8987;
+}
+
+.adultticket {
+  background-color: #D9CFE4;
+  width: 300px;
+  text-align: center;
+  padding: 25px 40px 25px 40px;
+  border: solid 2px #F59945;
+  box-shadow: 1px 3px 7px #8c8987;
+}
+
+.parking{
+  background-color: #D9CFE4;
+  width: 300px;
+  text-align: center;
+  padding: 25px 40px 25px 40px;
+  border: solid 2px #F59945;
+  box-shadow: 1px 3px 7px #8c8987;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
 
   /*card style*/
   
