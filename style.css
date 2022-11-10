@@ -36,6 +36,17 @@
     font-size: 15px;
     margin-top: 15px;
     border: solid 2px white;
+    cursor: pointer;
+  }
+
+  .herobutton:hover{
+    background-color: white;
+    color:#f78a0c
+  }
+
+  .hero h2{
+    margin-top: -50px;
+    padding-bottom: 15px;
   }
   
 .content h2{
@@ -104,16 +115,15 @@
   nav {
     position:absolute;
     text-align:left;
-    top:100%;
     left:0;
     background:var(--background);
     width:100%;
     transform: scale(1,0);
     transform-origin:top;
-    transition: transform 400ms ease-in-out;
-    
+    transition: transform 400ms ease-in-out;    
   }
-    
+
+
   nav ul {
     margin:0;
     padding:0;
@@ -255,6 +265,7 @@ border-style: none;
 font-size: 15px;
 margin-top: 15px;
 box-shadow: 1px 3px 7px #8c8987;
+cursor: pointer;
 }
 
 .info button:hover {
@@ -346,6 +357,7 @@ padding-right: 126px;
   display: flex;
   justify-content: space-around;
   margin-top: 65px;
+  gap:30px;
 }
 
 .cards button{
@@ -359,6 +371,7 @@ font-size: 15px;
 margin-top: 15px;
 box-shadow: 1px 3px 7px #8c8987;
 margin-bottom: 10px;
+cursor: pointer;
 }
 
 .cards button:hover {
@@ -421,6 +434,77 @@ h2{
   font-weight: 300;
 }
 
+/*merch*/
+
+.merch h1{
+  text-align: center;
+  font-family: 'Della Respira', serif;
+  margin-top: 80px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.merch img{
+  height: 40vh;
+  width: auto;
+}
+
+.merch{
+  text-align: center;
+  background-color:#DFDBD8 ;
+}
+
+.merchpics{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left:100px;
+  margin-right:100px;
+  gap:30px;
+}
+
+.merchbutton{
+  background-color:#f78a0c;
+  color:white;
+  width: 100px;
+  height: 35px;
+  font-family: 'Montserrat', sans-serif;
+  border-style: none;
+  font-size: 15px;
+  margin-top: 45px;
+  box-shadow: 1px 3px 7px #8c8987;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.merchbutton:hover {
+  background-color: #D9CFE4;
+}
+
+
+/*footer*/
+
+footer{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer p{
+  color:white;
+}
+
+footer p:hover{
+  color:#f78a0c;
+  cursor: pointer;
+}
+
+footer img{
+  cursor: pointer;
+}
+
+
+
   /*card style*/
   
   .container {
@@ -460,6 +544,7 @@ h2{
     .card img{
       height:85vh;
     }
+  
   }
   
   @media (max-width: 600px) {
@@ -469,3 +554,5 @@ h2{
     .card img{
       height:125vh;
     }
+
+  }
