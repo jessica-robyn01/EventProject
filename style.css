@@ -272,8 +272,9 @@ cursor: pointer;
   background-color: #D9CFE4;
 }
 
+/* date section */
+
 .datewords {
-    width:75vh;
     text-align: center;
     margin-left: 20vh;
     line-height: 30px;
@@ -286,16 +287,23 @@ cursor: pointer;
 margin-top: -15px;
 margin-bottom: 55px;
 }
-
+.datewords p{
+  padding-bottom: -100px;
+}
 .date{
   background-color: #DFDBD8;
-  height:80vh;
   display: flex;
   align-items: center;
+  height:430px;
 }
 
-.date img{
+.date img {
   height:104vh;
+}
+
+.date-image img {
+  position: relative;
+  bottom: -3px;
 }
 
 .date h1{
@@ -346,6 +354,8 @@ width: 50%;
 padding-left: 60px;
 padding-right: 126px;
 }
+
+
 
 /*pricing section*/
 .pricingtitle {
@@ -503,6 +513,13 @@ footer img{
   cursor: pointer;
 }
 
+.footerlink{
+  display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 9em;
+      padding-bottom: 10px;
+}
+
 
 
   /*card style*/
@@ -547,12 +564,80 @@ footer img{
   
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 650px) {
     .container {
       display: block;
     }
     .card img{
       height:125vh;
     }
+    .aboutsection{
+      display: flex;
+      flex-flow: column wrap;
+    }
+    .about-section-image{
+      width:auto;
+    }
+    .info p{
+      width:480px;
+    }
+    .date{
+      display: block;
+      flex-flow: column wrap;
+      margin-bottom: 400px;
+      margin-left: -70px;
+      padding-right: 48px;
+    }
+    .date-image img{
+      height:400px;
+    }
+    .date-image{
+    text-align: center;
+    padding-left: 160px;
+    }
 
+    .datewords{
+      padding-top: 50px;
+    }
+
+    .works p{
+      width:480px;
+    }
+
+    .works{
+      display: flex;
+      flex-flow: column wrap;
+    }
+
+    .works-section-image{
+      width:auto;
+    }
+
+    .cards{
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+    }
+    .merchpics{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1em;
+      padding-top:55px;
+    }
+    footer{
+      display: flex;
+      flex-flow: column wrap;
+    }
+    .footerlink{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 9em;
+      padding-bottom: 10px;
+    }
+  .footerimg img{
+    width:10em;
   }
+  .socials img{
+    width:4em;
+  }
+}
