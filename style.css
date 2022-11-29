@@ -28,7 +28,6 @@
 
   .herobutton {
     background-color:rgba(245, 153, 69, .40);
-    color:white;
     width: 140px;
     height: 45px;
     font-family: 'Montserrat', sans-serif;
@@ -39,9 +38,18 @@
     cursor: pointer;
   }
 
+  .herobutton a{
+    color:white;
+    text-decoration: none;
+  }
+
   .herobutton:hover{
     background-color: white;
-    color:#f78a0c
+    color:#f78a0c;
+  }
+
+  .herobutton:hover a{
+    color:#f78a0c;
   }
 
   .hero h2{
@@ -268,6 +276,11 @@ box-shadow: 1px 3px 7px #8c8987;
 cursor: pointer;
 }
 
+.info button a{
+  color:white;
+  text-decoration: none;
+}
+
 .info button:hover {
   background-color: #D9CFE4;
 }
@@ -370,6 +383,11 @@ padding-right: 126px;
   gap:30px;
 }
 
+.cards a{
+  color:white;
+  text-decoration: none;
+}
+
 .cards button{
   background-color:#f78a0c;
 color:white;
@@ -462,6 +480,11 @@ h2{
 .merch{
   text-align: center;
   background-color:#DFDBD8 ;
+}
+
+.merch a{
+  color:white;
+  text-decoration: none;
 }
 
 .merchpics{
