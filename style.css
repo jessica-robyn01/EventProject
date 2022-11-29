@@ -225,7 +225,6 @@
   container{
     position: relative;
     text-align: center;
-    
   }
 
   .aboutsection{
@@ -664,3 +663,38 @@ footer img{
     width:4em;
   }
 }
+
+
+/*about.html*/
+.abouthero{
+  width: 100%;
+    height:85vh;
+   background-image: url(Images/Aboutimg.jpg);
+    /*background-color: #333;*/
+    background-blend-mode:multiply;
+    background-size:cover;
+    background-position:center;
+}
+
+.abouttitle{
+  color:black;
+  margin-top:0;
+  font-size:2em;
+  font-family: 'Della Respira', serif;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.aboutinfo{
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.aboutinfo img{
+  padding-top: 45px;
+  padding-bottom: 45px;
+  width:30%;
+}
+
