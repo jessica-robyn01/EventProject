@@ -698,3 +698,76 @@ footer img{
   width:30%;
 }
 
+/*shop.html*/
+
+.productcards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:25px;
+  row-gap: 70px;
+  text-align: center;
+}
+
+.card5 img{
+  width:260px;
+}
+
+.card6 img{
+  width:260px;
+}
+
+.card7 img{
+  width:260px;
+  height:260px;
+  object-fit: cover;
+  background-color: white;
+}
+
+.card8 img{
+  width:260px;
+  height:260px;
+  object-fit: cover;
+  background-color: white;
+}
+
+.productcards h3{
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+text-transform: uppercase;
+}
+
+.producttitle {
+  padding-top: 8%;
+  padding-bottom: 3%;
+  text-align: center;
+  font-size: 28px;
+}
+
+.producttitle h2{
+  font-family: 'Della Respira', serif;
+}
+
+.productcards{
+  padding-bottom: 100px;
+}
+
+.productcards a{
+background-color:#f78a0c;
+color:white;
+width: 100px;
+height: 35px;
+font-family: 'Montserrat', sans-serif;
+border-style: none;
+font-size: 15px;
+margin-top: 0px;
+box-shadow: 1px 3px 7px #8c8987;
+margin-bottom: 10px;
+cursor: pointer;
+padding:10px;
+text-decoration: none;
+}
+
+.productcards a:hover {
+  background-color: #676077;
+  }
