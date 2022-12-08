@@ -17,7 +17,7 @@
   
   .content {
     width: 100%;
-    height:150vh;
+    height:122vh;
    background-image: url(Images/hero.jpg);
     /*background-color: #333;*/
     background-blend-mode:multiply;
@@ -52,7 +52,7 @@
     color:#f78a0c;
   }
 
-  .hero h2{
+  h2{
     margin-top: -50px;
     padding-bottom: 15px;
   }
@@ -84,6 +84,11 @@
     display:none;
   }
   
+.nav img{
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
   .nav-toggle-label{
     position:absolute;
     top:0;
@@ -214,12 +219,13 @@
     }
   }
   
-  container h1{
+.hero h1{
     color:white;
     margin-top:0;
-    padding-top:28%;
+    padding-top:20%;
     font-size:7em;
     font-family: 'Della Respira', serif;
+    font-weight: 100;
   }
   
   container{
@@ -420,6 +426,7 @@ background-color: #676077;
 .cards h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 16pt;
+  padding-top: 33%;
 }
 
 .cards h3{
@@ -736,17 +743,19 @@ footer img{
 font-family: 'Montserrat', sans-serif;
 font-weight: 300;
 text-transform: uppercase;
+margin-top: -8px;
+margin-bottom: 25px;
+}
+
+.productcards p{
+  font-weight: 500;
 }
 
 .producttitle {
-  padding-top: 8%;
-  padding-bottom: 3%;
+  padding-top: 15%;
+  padding-bottom: 1%;
   text-align: center;
   font-size: 28px;
-}
-
-.producttitle h2{
-  font-family: 'Della Respira', serif;
 }
 
 .productcards{
@@ -788,11 +797,118 @@ font-weight: 300;
 
 .item1{
   display: flex;
-  justify-content: space-between;
-  width:70%;
-  text-align: center;
+  justify-content: space-evenly;
   align-items: center;
-  padding-top: 55px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 8px;
+  margin-top: -40px;
+}
+
+.item1 h1{
+  font-size: 12pt;
+}
+
+.item2 h1{
+  font-size: 12pt;
+}
+
+.itemlist{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 30px;
+  padding-left: 5.5%;
+}
+
+.itemlist h1{
+  font-size: 12pt;
+}
+
+.price{
+  padding-left: 6.5%;
+}
+
+.item1image{
+  text-align: center;
+  padding-top: 65px;
+}
+
+.item1image img{
+height:175px;
+}
+
+.item1image h1{
+font-size: 12pt;
+}
+
+.item2image h1{
+  font-size: 12pt;
+  }
+
+.item2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+  margin-top: -40px;
+}
+
+.item2image{
+  text-align: center;
+  padding-top: 65px;
+}
+
+.item2image img{
+height:175px;
+}
+
+.myitems{
+  width:70%;
+  margin-left: 50px;
+}
+
+.checkout{
+  width:30%;
+  margin-left: 30px;
+  padding-left: 2.75%;
+  padding-top: 140px;
+  background-color: #D9CFE4;
+  margin-top:-100px;
+}
+.checkout h1{
+font-size: 12pt;
+}
+
+.checkout span{
+  font-size: 14pt;
+  font-weight: 400;
+}
+
+.checkout h3{
+  font-family: montserrat;
+  font-weight: 400;
+  font-size: 10pt;
+}
+
+.checkstuff{
+  margin-top: 60%;
+}
+
+.checkstuff button{
+  margin-top: 20px;
+}
+
+.checkstuff input{
+  border-radius: 7px;
+  border-style: none;
+  padding:7px;
+  font-family: montserrat;
+}
+
+.tacbox{
+  margin-top: 15px;
 }
 
 span {cursor:pointer; }
@@ -810,30 +926,31 @@ span {cursor:pointer; }
   height:34px;
   width: 30px;
   text-align: center;
-  font-size: 15pt;
+  font-size: 12pt;
   display: inline-block;
   vertical-align: middle;
   font-family: 'Montserrat', sans-serif;
   background: transparent;
 }
 
-.checkout{
- width:30%;
+.tacbox{
+  font-family: montserrat;
+  font-size: 10pt;
 }
 
-.colomn1 img{
-  height:50px;
+.checkoutB{
+background-color:#f78a0c;
+color:white;
+width: 290px;
+height: 35px;
+font-family: 'Montserrat', sans-serif;
+border-style: none;
+font-size: 15px;
+box-shadow: 1px 3px 7px #8c8987;
+margin-bottom: 10px;
+cursor: pointer;
 }
 
-.column2{
-  padding-bottom: 65px;
+.checkoutB:hover{
+  background-color: #676077;
 }
-
-.column3{
-  padding-bottom: 65px;
-}
-
-.column4{
-  padding-bottom: 65px;
-}
-
