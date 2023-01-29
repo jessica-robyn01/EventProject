@@ -735,6 +735,7 @@ footer img{
   margin-right: 25%;
   text-align: center;
   padding-top: 20px;
+  line-height: 28px;
 }
 
 .aboutinfo img{
@@ -789,14 +790,16 @@ margin-bottom: 25px;
 }
 
 .producttitle {
-  padding-top: 15%;
+  padding-top: 20vh;
   padding-bottom: 1%;
   text-align: center;
   font-size: 28px;
 }
 
 .productcards{
-  padding-bottom: 100px;
+  padding-bottom: 20vh;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .productcards a{
@@ -824,6 +827,7 @@ text-decoration: none;
   display: flex;
   padding-top:100px;
   justify-content: space-between;
+  height:100%;
 }
 
 .mycart h1{
@@ -914,6 +918,7 @@ height:175px;
   background-color: #D9CFE4;
   margin-top:-100px;
 }
+
 .checkout h1{
 font-size: 12pt;
 }
@@ -990,4 +995,8 @@ cursor: pointer;
 
 .checkoutB:hover{
   background-color: #676077;
+}
+
+body{
+  height:100vh;
 }
