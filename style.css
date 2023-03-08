@@ -28,7 +28,7 @@
   }
 
   .herobutton {
-    background-color:rgba(245, 153, 69, .40);
+    background-color:#f78a0c;);
     width: 140px;
     height: 45px;
     font-family: 'Montserrat', sans-serif;
@@ -155,7 +155,7 @@
   }
   
   nav a {
-    color:white;
+    color: #D9CFE4;
     text-decoration:none;
     font-size: 1.2rem;
     text-transform:uppercase;
@@ -163,7 +163,7 @@
   }
   
   nav a:hover{
-    color:#f78a0c;
+    color: #f78a0c;
   }
   
   .fa-solid:hover{
@@ -813,14 +813,15 @@ margin-bottom: 25px;
   font-weight: 500;
 }
 
-.producttitle {
-  padding-top: 20vh;
+.Ptitle{
+  padding-top: 12vh;
   padding-bottom: 1%;
   text-align: center;
-  font-size:2.8em;
-  font-family: 'Della Respira', serif;
+  font-size:4em;
   text-align: center;
+  font-family: 'Della Respira', serif;
 }
+
 
 .productcards{
   padding-bottom: 20vh;
@@ -943,15 +944,17 @@ height:175px;
   padding-top: 140px;
   background-color: #D9CFE4;
   margin-top:-100px;
+
 }
 
 .checkout h1{
 font-size: 12pt;
+
 }
 
 .checkout span{
   font-size: 14pt;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .checkout h3{
@@ -979,15 +982,15 @@ font-size: 12pt;
   margin-top: 15px;
 }
 
-span {cursor:pointer; }
+span {cursor:pointer;}
 
 .minus, .plus{
   width:20px;
   height:20px;
   border-radius:4px;
-  display: inline-block;
+  /* display: inline-block;
   vertical-align: middle;
-  text-align: center;
+  text-align: center; */
   font-size: 20pt;
 }
 .plusminus{
