@@ -188,8 +188,9 @@
     }
     .nav {
       display:grid;
-      grid-template-columns:1fr auto minmax(950px, 3fr) 1fr;
+      /* grid-template-columns:1fr auto minmax(1800px, 3fr) 1fr; */
       border-bottom: solid .75px white;
+      padding-right: 4%;
     }
 
     .nav img{
@@ -820,6 +821,7 @@ margin-bottom: 25px;
   font-size:4em;
   text-align: center;
   font-family: 'Della Respira', serif;
+  margin-top: 0;
 }
 
 
